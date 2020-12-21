@@ -1,0 +1,2 @@
+C:\Users\uphar\Desktop\Snake Game\Snake_Game\Debug\Snake_Game.exe
+C:\Users\uphar\Desktop\Snake Game\Snake_Game\Debug\Snake_Game.pdb
