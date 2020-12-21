@@ -1,4 +1,4 @@
 # Projects
-#Made by- Pranjal Kumar Gupta
-              B.Tech EE
-              NIT-Patna
+# Made by- Pranjal Kumar Gupta
+# Branch- B.Tech Electrical Engn.
+# College- NIT-Patna
