@@ -32,11 +32,11 @@ num_classes = 10
 epochs = 10
 
 model = Sequential()
-model.add(Conv2D(32, kernel_size=(5, 5),activation='relu',input_shape=input_shape))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Conv2D(64, (3, 3), activation='relu'))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Flatten())
+model.add(Conv2D(32, kernel_size=(3, 3),activation='relu',input_shape=input_shape)) #(26*26)
+#model.add(MaxPooling2D(pool_size=(2, 2)))#(13*13)
+model.add(Conv2D(64, (3, 3), activation='relu'))#(24*24)
+model.add(MaxPooling2D(pool_size=(2, 2)))#(12*12)
+model.add(Flatten())#(144)
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.3))
 model.add(Dense(64, activation='relu'))
